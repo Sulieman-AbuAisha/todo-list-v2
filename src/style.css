@@ -1,0 +1,12 @@
+.btn:hover {
+  background: rgb(248, 248, 248) !important;
+  color: rgba(0, 0, 0, 0.4) !important;
+  border: rgba(0, 0, 0, 0.4) solid 2px !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  transition: all 0.2s;
+}
+
+.card:hover {
+  padding: 10px 0;
+  transition: all 0.2s;
+}
