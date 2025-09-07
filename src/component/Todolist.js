@@ -33,7 +33,7 @@ export default function Todolist() {
   let updatedTodo = [];
 
   useEffect(() => {
-    const list = localStorage.getItem("todos") ?? [];
+    const list = localStorage.getItem("todos") ?? {};
     SetContext(JSON.parse(list));
   }, []);
 
